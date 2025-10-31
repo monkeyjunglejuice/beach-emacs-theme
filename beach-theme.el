@@ -1,22 +1,24 @@
 ;;; beach-theme.el --- A light, sunny and calm Emacs theme  -*- lexical-binding: t; -*-
+
 ;; Copyright (C) 2021–2024 Dan Dee
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
-;; URL: https://github.com/monkeyjunglejuice/beach-theme-emacs
-;; Version: 1.3
+;; URL: https://github.com/monkeyjunglejuice/beach-emacs-theme
+;; Version: 1.4.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
 ;; SPDX-License-Identifier: MIT
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
+;;
 ;; Gulp down your happy shake, listen to the trippy tunes and slowly do
 ;; "M-x load-theme" ... you deserve it. »Beach« is a sunny theme inspired
 ;; by monochromatic themes and e-ink displays. It appears calm, wears colors
-;; sparingly, and only where really neccessary.
-
+;; sparingly, and only where really necessary.
+;;
 ;; My other themes:
-;; - "The Matrix" https://github.com/monkeyjunglejuice/matrix-emacs-theme
-
+;; - "The Matrix" <https://github.com/monkeyjunglejuice/matrix-emacs-theme>
+;;
 ;;; Code:
 
 (deftheme beach "A light, sunny and calm Emacs theme.")
