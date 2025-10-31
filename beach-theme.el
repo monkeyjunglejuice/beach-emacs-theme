@@ -663,6 +663,11 @@
    ;; yasnippet
    `(yas-field-highlight-face ((t (:background ,color-bright-light))))
 
+   ;; which-key
+   `(which-key-key-face ((t (:foreground ,color-fg :weight bold))))
+   `(which-key-group-description-face ((t (:inherit font-lock-comment-face :weight bold))))
+   `(which-key-command-description-face ((t (:inherit font-lock-comment-face))))
+
    ))
 
 ;;;###autoload
