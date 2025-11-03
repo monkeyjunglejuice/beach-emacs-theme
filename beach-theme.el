@@ -605,7 +605,7 @@
 
    ;; switch-window
    `(switch-window-background ((t (:foreground ,color-fg-dim))))
-   `(switch-window-label ((t (:foreground ,color-strong :height 3.0))))
+   `(switch-window-label ((t (:foreground ,color-strong :height 1.5))))
 
    ;; telega
    `(telega-msg-heading ((t (:foreground ,color-dark :background unspecified :inherit unspecified))))
