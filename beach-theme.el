@@ -88,10 +88,10 @@
    `(trailing-whitespace ((t (:background ,color-strong-light))))
    `(escape-glyph ((t (:weight bold :inherit shadow))))
 
-   `(font-lock-builtin-face ((t (:foreground ,color-strong))))
+   `(font-lock-builtin-face ((t (:foreground ,color-bright :slant italic))))
    `(font-lock-comment-face ((t (:foreground ,color-fg-dim))))
    `(font-lock-constant-face ((t (:foreground ,color-shade-5 :weight bold))))
-   `(font-lock-doc-face ((t (:foreground ,color-fg-dim :slant italic :inherit fixed-pitch-serif))))
+   `(font-lock-doc-face ((t (:foreground ,color-fg-dim :slant italic))))
    `(font-lock-function-name-face ((t (:foreground ,color-fg :weight bold))))
    `(font-lock-keyword-face ((t (:foreground ,color-bright))))
    `(font-lock-number-face ((t (:foreground ,color-dark))))
