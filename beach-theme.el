@@ -82,7 +82,7 @@
    `(show-paren-mismatch ((t (:foreground ,color-strong :background ,color-strong-light :weight bold))))
    `(highlight ((t (:background ,color-light :underline (:color ,color-fg-alt)))))
    `(match ((t (:weight bold))))
-   `(hl-line ((t (:underline (:color ,color-fg-dim) :extend t))))
+   `(hl-line ((t (:underline (:color ,color-fg-alt) :extend t))))
    `(separator-line ((t (:height 0.1 :background ,color-fg-dimmer))))
    `(widget-field ((t (:foreground ,color-fg-alt :background ,color-bg-alt :box (:color ,color-bg)))))
    `(trailing-whitespace ((t (:background ,color-strong-light))))
