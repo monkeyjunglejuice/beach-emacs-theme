@@ -227,6 +227,24 @@
    ;; table
    `(table-cell ((t (:foreground ,color-fg :background ,color-bg-alt))))
 
+   ;; tabs
+   `(tab-bar ((t (:foreground ,color-fg-dim :background ,color-bg-alt :box (:color ,color-bg-alt)))))
+   `(tab-bar-tab ((t (:foreground ,color-fg))))
+   `(tab-bar-tab-ungrouped ((t (:inherit tab-bar-tab))))
+   `(tab-bar-tab-group-current ((t (:foreground ,color-fg))))
+   `(tab-bar-tab-group-inactive ((t (:foreground ,color-fg-dim))))
+   `(tab-bar-tab-inactive ((t (:foreground ,color-fg-dim))))
+   `(tab-line ((t :foreground ,color-fg-dim :background ,color-bg-alt :box (:color ,color-bg-alt))))
+   `(tab-line-close-highlight ((t (:foreground ,color-fg-alt))))
+   `(tab-line-highlight ((t (:foreground ,color-fg-alt))))
+   `(tab-line-tab ((t (:foreground ,color-fg))))
+   `(tab-line-tab-current ((t (:foreground ,color-fg))))
+   `(tab-line-tab-inactive ((t (:foreground ,color-fg-dim))))
+   `(tab-line-tab-inactive-alternate ((t (:inherit tab-line-tab-inactive))))
+
+   ;; activities
+   `(activities-tabs ((t (:weight bold))))
+
    ;; tex
    `(font-latex-sedate-face ((t (:foreground ,color-dark))))
    `(font-latex-math-face ((t (:foreground ,color-fg))))
