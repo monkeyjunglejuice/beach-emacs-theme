@@ -523,6 +523,7 @@
    ;; consult
    `(consult-preview-line ((t (:inherit highlight))))
    `(consult-preview-cursor ((t (:background ,color-bg :underline unspecified))))
+   `(consult-separator-face ((t (:foreground ,color-fg-dimmer))))
 
    ;; helm
    `(helm-candidate-number ((t (:foreground ,color-fg-dim :background unspecified))))
