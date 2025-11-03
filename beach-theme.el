@@ -88,7 +88,6 @@
    `(trailing-whitespace ((t (:background ,color-strong-light))))
    `(escape-glyph ((t (:weight bold :inherit shadow))))
 
-   `(font-lock-face ((t (:foreground ,color-middle))))
    `(font-lock-builtin-face ((t (:foreground ,color-strong))))
    `(font-lock-comment-face ((t (:foreground ,color-fg-dim))))
    `(font-lock-constant-face ((t (:foreground ,color-shade-5 :weight bold))))
